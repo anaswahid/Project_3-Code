@@ -1,2 +1,60 @@
-# Project_3-Code
-- Image Source: https://commons.wikimedia.org/wiki/File:Chicago_skyline,_viewed_from_John_Hancock_Center.jpg - The Chicago Crime dataset contains a summary of the reported crimes occurred in the City of Chicago from 2001 to 2017.  - Dataset has been obtained from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system. - Dataset contains the following columns:      - ID: Unique identifier for the record.     - Case Number: The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.     - Date: Date when the incident occurred.     - Block: address where the incident occurred     - IUCR: The Illinois Unifrom Crime Reporting code.     - Primary Type: The primary description of the IUCR code.     - Description: The secondary description of the IUCR code, a subcategory of the primary description.     - Location Description: Description of the location where the incident occurred.     - Arrest: Indicates whether an arrest was made.     - Domestic: Indicates whether the incident was domestic-related as defined by the Illinois Domestic Violence Act.     - Beat: Indicates the beat where the incident occurred. A beat is the smallest police geographic area – each beat has a dedicated police beat car.      - District: Indicates the police district where the incident occurred.      - Ward: The ward (City Council district) where the incident occurred.      - Community Area: Indicates the community area where the incident occurred. Chicago has 77 community areas.      - FBI Code: Indicates the crime classification as outlined in the FBI's National Incident-Based Reporting System (NIBRS).      - X Coordinate: The x coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection.      - Y Coordinate: The y coordinate of the location where the incident occurred in State Plane Illinois East NAD 1983 projection.      - Year: Year the incident occurred.     - Updated On: Date and time the record was last updated.     - Latitude: The latitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.     - Longitude: The longitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.     - Location: The location where the incident occurred in a format that allows for creation of maps and other geographic operations on this data portal. This location is shifted from the actual location for partial redaction but falls on the same block. - Datasource: https://www.kaggle.com/currie32/crimes-in-chicago
+# 🕵️ Chicago Crime Analysis (2001–2017)
+
+This project explores and analyzes crime data reported in the City of Chicago between **2001 and 2017**. Using powerful Python libraries, the project uncovers trends, visualizes crime patterns, and extracts key insights from the city's crime records.
+
+The data was collected from the **Chicago Police Department’s CLEAR (Citizen Law Enforcement Analysis and Reporting) system** and published publicly for transparency and research purposes.
+
+---
+
+## 🎯 Project Objective
+
+The main objective of this project is to perform **exploratory data analysis (EDA)** and build **visualizations** to understand:
+- Crime trends over time
+- Types of crimes most frequently reported
+- Crime concentration across different locations (community areas, beats, districts)
+- Relationships between arrests, crime categories, and domestic incidents
+
+This analysis aims to help civic organizations, law enforcement analysts, urban planners, and researchers make informed decisions based on historical crime data.
+
+---
+
+## 📊 About the Dataset
+
+- 📅 **Duration**: 2001 to 2017
+- 🧾 **Source**: Chicago Police Department's CLEAR system  
+- 🔗 **Dataset Link**: [Kaggle - Crimes in Chicago](https://www.kaggle.com/currie32/crimes-in-chicago)
+
+### 🔢 Key Columns in the Dataset:
+- **ID**: Unique identifier  
+- **Case Number**: Police incident tracking number  
+- **Date**: Timestamp of the incident  
+- **Primary Type**: Main category of the crime (e.g., Theft, Assault)  
+- **Description**: Detailed sub-category  
+- **Location Description**: Where the crime occurred (e.g., Street, Residence)  
+- **Arrest**: Whether an arrest was made  
+- **Domestic**: Whether the crime was domestic in nature  
+- **Community Area**: 77 Chicago-defined community regions  
+- **Latitude / Longitude**: Coordinates for mapping  
+- **Beat / District / Ward**: Law enforcement and political divisions  
+
+---
+
+## 🗺️ Image Reference
+
+Chicago Skyline Image Source:  
+📷 [Wikimedia Commons – Chicago Skyline from Hancock Center](https://commons.wikimedia.org/wiki/File:Chicago_skyline,_viewed_from_John_Hancock_Center.jpg)
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **Python 3**
+- **Pandas** – Data manipulation
+- **Matplotlib & Seaborn** – Static visualization
+- **Plotly** – Interactive visualization (optional)
+- **GeoPandas / Folium** – Geographic plotting (optional)
+- **Jupyter / Google Colab** – Notebook-based exploration
+
+---
+
+
